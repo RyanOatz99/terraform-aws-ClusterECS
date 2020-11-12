@@ -1,4 +1,4 @@
-# terraform-aws-ecs
+# Terraform AWS ECS Service
 
 This terraform module builds an Elastic Container Service(ECS) Cluster in AWS.
 
