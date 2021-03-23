@@ -1,5 +1,5 @@
 module "ecs_app_wordpress_01" {
-  source                 = "git::https://github.com/FelipeGFalcao/terraform-aws-ecs.git"
+  source                 = "git::https://github.com/FelipeGFalcao/terraform-aws-ClusterECS.git"
   vpc_id                 = local.workspace["vpc_id"]
   cluster_name           = module.ecs_apps.ecs_name
   service_role_arn       = module.ecs_apps.ecs_service_iam_role_arn
