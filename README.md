@@ -25,7 +25,7 @@ In addition you have the option to create or not :
 
 ```hcl
 module "ecs_apps" {
-
+  source               = "felipefalcaodevops/ClusterECS/aws"
   name                 = "${local.workspace["cluster_name"]}"
   instance_type_1      = "t3.large"
   instance_type_2      = "t2.large"
